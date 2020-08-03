@@ -16,6 +16,6 @@ public class TestHandler extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "APIKEY";
+        return "1255003327:AAGe6lpCPS6fcK4WTRZf5oN58J0qUYYANJk";
     }
 }

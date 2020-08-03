@@ -18,6 +18,14 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+
+	//kafka
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-stream'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-stream-kafka'
+	//for stream test
+	//https://dataflow.spring.io/docs/stream-developer-guides/streams/standalone-stream-kafka/
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-stream-test-support'
+
 }
 
 test {
